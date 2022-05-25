@@ -9,7 +9,7 @@
 file = open('C:/Users/Mlolaiya/story.txt', 'r')
 content = file.read()
 
-#HOW TO ACCESS NUMBER OF OCCURENCE OF WORDS IN PYTHON
+
 def read_file_content(content):
 #to read text-file, pass a file name
    content = file.read()
@@ -18,7 +18,7 @@ def read_file_content(content):
 
 print(content) #This will print out the text-file
 
-
+#HOW TO COUNT NUMBER OF OCCURENCE OF WORDS IN PYTHON
 def count_words(content):
     counts = dict()
     text = content.split()
